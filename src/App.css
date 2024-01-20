@@ -1,0 +1,34 @@
+.cliente img{
+    clip-path: circle(50% at center);
+    object-fit: cover;
+}
+
+.iconDropdownLess{
+    transform:rotateX(180deg);
+}
+
+#default-sidebar{
+    width: 4rem;
+    transition: width ease-in-out 0.5s;
+    overflow: hidden;
+}
+
+#default-sidebar span{
+    display: none;
+}
+
+#default-sidebar:hover {
+    width: 250px;
+}
+
+
+#default-sidebar:hover span{
+    display: flex;
+}
+
+#default-sidebar:hover .exit{
+    width: 7rem;
+}
+
+
+
