@@ -13,7 +13,7 @@ const router = createBrowserRouter(
 function App() {
 
   return (    
-    <main className='w-[95%] relative left-[5%]'>
+    <main className='w-[80%] relative left-[18%]'>
       <RouterProvider router={router}/>
     </main>
   )

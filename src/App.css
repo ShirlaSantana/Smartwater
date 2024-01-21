@@ -7,7 +7,7 @@
     transform:rotateX(180deg);
 }
 
-#default-sidebar{
+/* #default-sidebar{
     width: 4rem;
     transition: width ease-in-out 0.5s;
     overflow: hidden;
@@ -28,7 +28,7 @@
 
 #default-sidebar:hover .exit{
     width: 7rem;
-}
+} */
 
 
 
